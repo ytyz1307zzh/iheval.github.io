@@ -20,7 +20,27 @@ body {
 
 .teaser .hero-body {
   padding-top: 0;
-  padding-bottom: 3rem;
+  padding-bottom: 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.text-content {
+  flex: 1;
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.image-content {
+  flex: 1;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
 }
 
 .teaser {
